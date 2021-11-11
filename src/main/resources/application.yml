@@ -1,0 +1,19 @@
+spring:
+   application:
+      name: user-service
+server:
+   port: 8083
+logging:
+   application-insights:
+      instrumentation-key: 053ee39c-c27f-4563-b77c-57f96c20ed45      
+   level:
+      root: INFO
+      org.epam: DEBUG   
+azure:
+   application-insights:
+      instrumentation-key: 053ee39c-c27f-4563-b77c-57f96c20ed45      
+   cosmos:
+      uri: https://smcosmoacc.documents.azure.com:443/
+      key: g9uglPPJcoUbhk6mwTn3JIfe6FG3oLmOq8rLCOS7sbSQeApOTmdTGA8GsSLxnRQbRJ91GTCO2mGZVtNNPzf6mw==
+      database: smcosmodb
+      populateQueryMetrics: true

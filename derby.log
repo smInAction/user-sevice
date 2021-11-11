@@ -1,0 +1,58 @@
+----------------------------------------------------------------
+Sat Jul 31 18:31:32 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017a-fca7-c635-00000cfb66a8 
+on database directory memory:D:\microservices_learning\microservices_workspace\librarymgt\user-service\2fa5a249-01ca-40e4-827c-60b513527024 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11028347 
+Loaded from file:/C:/Users/Shalu_Malhotra/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.1+9-18
+user.dir=D:\microservices_learning\microservices_workspace\librarymgt\user-service
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jul 31 18:38:22 IST 2021:
+Shutting down instance a816c00e-017a-fca7-c635-00000cfb66a8 on database directory memory:D:\microservices_learning\microservices_workspace\librarymgt\user-service\2fa5a249-01ca-40e4-827c-60b513527024 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11028347 
+----------------------------------------------------------------
+Sat Jul 31 18:38:32 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 30fbc0bb-017a-fca7-c635-00000cfb66a8 
+on database directory memory:D:\microservices_learning\microservices_workspace\librarymgt\user-service\114c2b37-0f47-46ee-9ad8-c42e8bf6433e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11028347 
+Loaded from file:/C:/Users/Shalu_Malhotra/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.1+9-18
+user.dir=D:\microservices_learning\microservices_workspace\librarymgt\user-service
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jul 31 18:38:39 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 771b0168-017a-fca7-c635-00000cfb66a8 
+on database directory memory:D:\microservices_learning\microservices_workspace\librarymgt\user-service\34094427-0279-4bea-9170-94df548d7cef with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11028347 
+Loaded from file:/C:/Users/Shalu_Malhotra/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.1+9-18
+user.dir=D:\microservices_learning\microservices_workspace\librarymgt\user-service
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jul 31 18:38:45 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance ca748215-017a-fca7-c635-00000cfb66a8 
+on database directory memory:D:\microservices_learning\microservices_workspace\librarymgt\user-service\0f0d2ae2-031d-41d6-a0f7-68996662ff69 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11028347 
+Loaded from file:/C:/Users/Shalu_Malhotra/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.1+9-18
+user.dir=D:\microservices_learning\microservices_workspace\librarymgt\user-service
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jul 31 18:38:47 IST 2021:
+Shutting down instance 771b0168-017a-fca7-c635-00000cfb66a8 on database directory memory:D:\microservices_learning\microservices_workspace\librarymgt\user-service\34094427-0279-4bea-9170-94df548d7cef with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11028347 

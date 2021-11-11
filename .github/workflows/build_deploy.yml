@@ -74,6 +74,7 @@ jobs:
           container-registry-url: ${{ env.REGISTRY_NAME }}.azurecr.io
           container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
           container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
+          secret-name: ${{ env.SECRET }}
           namespace: ${{ env.NAMESPACE }}
           force: true
 
@@ -84,4 +85,6 @@ jobs:
             k8s_config/user-service-deployment.yml
           images: |
             ${{ env.REGISTRY_NAME }}.azurecr.io/images/${{ env.APP_NAME }}:latest
+          imagepullsecrets: |
+            ${{ env.SECRET }}  
           namespace: ${{ env.NAMESPACE }}

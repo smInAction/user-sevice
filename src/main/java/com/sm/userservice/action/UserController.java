@@ -32,7 +32,7 @@ public class UserController {
 	
 	@GetMapping("/users")
 	  public Flux<SiteUser> getAllUsers(@RequestParam(required = false) String fname) {
-		logger.info("retrieving users...");
+		logger.info("retrieving users...in getallusers");
 	    try {
 	      if (fname == null) {
 	    	  return userRepository.findAll();

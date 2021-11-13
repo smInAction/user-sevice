@@ -13,7 +13,13 @@ azure:
    application-insights:
       instrumentation-key: 053ee39c-c27f-4563-b77c-57f96c20ed45      
    cosmos:
-      uri: https://smcosmoacc.documents.azure.com:443/
-      key: g9uglPPJcoUbhk6mwTn3JIfe6FG3oLmOq8rLCOS7sbSQeApOTmdTGA8GsSLxnRQbRJ91GTCO2mGZVtNNPzf6mw==
-      database: smcosmodb
+      uri: ${cosmouri}
+      key: ${cosmokey}
+      database: ${cosmodb}
       populateQueryMetrics: true
+   keyvault:
+      client-id: 79035505-d142-4b59-a1e6-07c1ed7af0a3
+      client-key: 1ecb5558-6d73-4454-9809-335e5775e57c
+      enabled: true
+      tenant-id: b41b72d0-4e9f-4c26-8a69-f949f367c91d
+      uri: https://smkeyvault2.vault.azure.net/

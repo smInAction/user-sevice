@@ -19,4 +19,4 @@ azure:
       populateQueryMetrics: true
    keyvault:
       enabled: true
-      uri: https://smkeyvault2.vault.azure.net/
+      uri: https://smkeyvaultt.vault.azure.net/

@@ -38,7 +38,7 @@ spec:
   ports:
     - port: 8083
       targetPort: 8083
-      nodePort: 31033
+      nodePort: 31003
   selector:
     name: user-service-pod
     app: ctc-odp

@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "shoppingk8scluster-6d20"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "shoppingk8scluster-6d20"
+  template:
+    metadata:
+      labels:
+        app: "shoppingk8scluster-6d20"
+    spec:
+      containers:
+        - name: "shoppingk8scluster-6d20"
+          image: "shoppingreg.azurecr.io/shoppingk8scluster"
+          ports:
+          - containerPort: 80

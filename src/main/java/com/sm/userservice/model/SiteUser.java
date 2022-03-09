@@ -8,7 +8,7 @@ import com.azure.spring.data.cosmos.core.mapping.PartitionKey;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@Container(containerName = "smcosmocollection")
+@Container(containerName = "shopping_container")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class SiteUser {
 	@Id

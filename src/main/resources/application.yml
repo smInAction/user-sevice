@@ -5,18 +5,18 @@ server:
    port: 8083
 logging:
    application-insights:
-      instrumentation-key: 053ee39c-c27f-4563-b77c-57f96c20ed45      
+      instrumentation-key: 324cad6b-0410-485e-9418-76c1061a5ae5      
    level:
       root: INFO
       org.epam: DEBUG   
 azure:
    application-insights:
-      instrumentation-key: 053ee39c-c27f-4563-b77c-57f96c20ed45      
+      instrumentation-key: 324cad6b-0410-485e-9418-76c1061a5ae5      
    cosmos:
-      uri: ${cosmouri}
-      key: ${cosmokey}
-      database: ${cosmodb}
+      uri: ${shoppingcosmouri}
+      key: ${shoppingcosmokey}
+      database: ${shoppingcosmodb}
       populateQueryMetrics: true
    keyvault:
       enabled: true
-      uri: https://smkeyvaultt.vault.azure.net/
+      uri: https://smkeyvault1.vault.azure.net/

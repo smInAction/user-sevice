@@ -14,7 +14,7 @@ env:
   CLUSTER_RESOURCE_GROUP: shopping_resource
   NAMESPACE: default
   APP_NAME: user-service
-  SECRET: xJe~btPOhhLq3i7LSt7-pEHVD3g5MuYTTp
+  SECRET: b0cb2415-0bdc-4eb5-a37d-f7a3e0b70dc9
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

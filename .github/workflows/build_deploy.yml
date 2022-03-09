@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY_NAME: smdockercontainerreg
+  REGISTRY_NAME: shoppingreg
   CLUSTER_NAME: shoppingk8scluster
   CLUSTER_RESOURCE_GROUP: shopping_resource
   NAMESPACE: default
